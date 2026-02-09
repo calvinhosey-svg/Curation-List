@@ -1093,65 +1093,244 @@
       "fact": "The building's 'veil-and-vault' design allows natural light to filter through a honeycomb shell.",
       "metrics": { "comfy_score": { "val": 9, "note": "Elite AC/Design." }, "stability_index": { "val": 10, "note": "Very organized." }, "boundary_level": { "val": 7, "note": "Timed entry crowds." }, "food_adventure": { "val": 8, "note": "Otium is adjacent." } }
     },
-    {
-      "id": "museum-us-10028-metropolitan-museum",
-      "name": "The Met",
-      "type": "museum",
-      "address": "1000 5th Ave",
-      "city": "New York",
-      "state": "NY",
-      "zip_code": "10028",
-      "country": "US",
-      "cost": "$$$",
-      "coords": { "lat": 40.7794, "lng": -73.9632 },
-      "description": "One of the world's largest and finest art museums, spanning 5,000 years of culture.",
-      "fact": "The museum owns over 2 million pieces of art, though only a fraction is on display.",
-      "metrics": { "comfy_score": { "val": 8, "note": "Infinite walking." }, "stability_index": { "val": 10, "note": "Permanent pillar." }, "boundary_level": { "val": 10, "note": "Lost in the scale." }, "food_adventure": { "val": 7, "note": "Rooftop bar is 10/10." } }
-    },
-    {
-      "id": "museum-us-20024-spy-museum",
-      "name": "International Spy Museum",
-      "type": "museum",
-      "address": "700 L'Enfant Plaza SW",
-      "city": "Washington",
-      "state": "DC",
-      "zip_code": "20024",
-      "country": "US",
-      "cost": "$$$",
-      "coords": { "lat": 38.8842, "lng": -77.0229 },
-      "description": "A high-tech, interactive museum dedicated to the tradecraft and history of espionage.",
-      "fact": "The board of directors includes former directors of the CIA and MI5.",
-      "metrics": { "comfy_score": { "val": 9, "note": "Interactive/Modern." }, "stability_index": { "val": 9, "note": "Very engaging." }, "boundary_level": { "val": 8, "note": "Immersive 'cover'." }, "food_adventure": { "val": 6, "note": "Nearby Wharf food." } }
-    },
-    {
-      "id": "bar-is-101-bravo-pukkin",
-      "name": "Bravo Pukkin",
-      "type": "bar",
-      "address": "Laugavegur 28",
-      "city": "Reykjavik",
-      "state": "Capital Region",
-      "zip_code": "101",
-      "country": "IS",
-      "cost": "$$$",
-      "coords": { "lat": 64.1460, "lng": -21.9298 },
-      "description": "A cozy, eclectic bar on Reykjavik's main street with a massive selection of local craft beer.",
-      "fact": "Known for having some of the longest 'Happy Hours' in a city famous for expensive drinks.",
-      "metrics": { "comfy_score": { "val": 8, "note": "Very cozy/Warm." }, "stability_index": { "val": 9, "note": "Vibrant local hub." }, "boundary_level": { "val": 8, "note": "Friendly but aloof." }, "food_adventure": { "val": 7, "note": "Solid snacks." } }
-    },
-    {
-      "id": "restaurant-mx-06700-contramar",
-      "name": "Contramar",
-      "type": "restaurant",
-      "address": "Calle de Durango 200",
-      "city": "Mexico City",
-      "state": "CDMX",
-      "zip_code": "06700",
-      "country": "MX",
-      "cost": "$$$",
-      "coords": { "lat": 19.4195, "lng": -99.1675 },
-      "description": "The gold standard for seafood in CDMX, famous for its red and green grilled snapper.",
-      "fact": "Chef Gabriela Cámara's tuna tostadas are considered a 'mandatory' dish for any food traveler.",
-      "metrics": { "comfy_score": { "val": 9, "note": "Elite lunch vibe." }, "stability_index": { "val": 10, "note": "Global legend." }, "boundary_level": { "val": 7, "note": "High-energy crowd." }, "food_adventure": { "val": 10, "note": "Transcendental seafood." } }
+  {
+    "id": "hotel-us-78701-citizenm-austin-downtown",
+    "name": "citizenM Austin Downtown",
+    "type": "hotel",
+    "address": "617 Colorado St",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "78701",
+    "country": "US",
+    "cost": "$$",
+    "coords": { "lat": 30.26773, "lng": -97.74464 },
+    "description": "A design-forward downtown stay with compact smart rooms and a highly social lobby vibe.",
+    "fact": "citizenM is built around fast self check-in, efficient room footprints, and big shared living spaces.",
+    "metrics": {
+      "comfy_score": { "val": 8, "note": "Modern, efficient comfort." },
+      "stability_index": { "val": 9, "note": "Consistent brand experience." },
+      "boundary_level": { "val": 8, "note": "Autonomy-friendly, minimal friction." },
+      "food_adventure": { "val": 5, "note": "More about location than dining." }
+    }
+  },
+  {
+    "id": "hotel-us-97214-hotel-grand-stark",
+    "name": "Hotel Grand Stark",
+    "type": "hotel",
+    "address": "509 SE Grand Ave",
+    "city": "Portland",
+    "state": "OR",
+    "zip_code": "97214",
+    "country": "US",
+    "cost": "$$",
+    "coords": { "lat": 45.51632, "lng": -122.66079 },
+    "description": "A boutique Eastside base with a moody, stylish aesthetic and easy access to food + bars.",
+    "fact": "A newer Portland boutique entry positioned as an Eastside anchor near the central corridors.",
+    "metrics": {
+      "comfy_score": { "val": 8, "note": "Boutique cozy." },
+      "stability_index": { "val": 8, "note": "Reliable, consistent." },
+      "boundary_level": { "val": 8, "note": "Easy in/out, low-stress." },
+      "food_adventure": { "val": 7, "note": "Great neighborhood pairing." }
+    }
+  },
+  {
+    "id": "hotel-us-70130-old-no-77",
+    "name": "The Old No. 77 Hotel & Chandlery",
+    "type": "hotel",
+    "address": "535 Tchoupitoulas St",
+    "city": "New Orleans",
+    "state": "LA",
+    "zip_code": "70130",
+    "country": "US",
+    "cost": "$$",
+    "coords": { "lat": 29.9449, "lng": -90.0709 },
+    "description": "A Warehouse District boutique hotel blending industrial history with a local-art-forward identity.",
+    "fact": "The building has deep warehouse roots; the hotel’s identity is tightly tied to local art + maker culture.",
+    "metrics": {
+      "comfy_score": { "val": 8, "note": "Warm boutique feel." },
+      "stability_index": { "val": 8, "note": "Strong identity, consistent." },
+      "boundary_level": { "val": 7, "note": "Lively district energy." },
+      "food_adventure": { "val": 8, "note": "Excellent city for dining." }
+    }
+  },
+  {
+    "id": "hotel-us-11211-the-pod-brooklyn",
+    "name": "The Pod Hotel Brooklyn",
+    "type": "hotel",
+    "address": "247 Metropolitan Ave",
+    "city": "Brooklyn",
+    "state": "NY",
+    "zip_code": "11211",
+    "country": "US",
+    "cost": "$$",
+    "coords": { "lat": 40.71355, "lng": -73.96178 },
+    "description": "A compact, budget-smart Williamsburg stay designed for high-walkability and low fuss.",
+    "fact": "Pod’s core promise is small, efficient rooms that trade square footage for location + affordability.",
+    "metrics": {
+      "comfy_score": { "val": 7, "note": "Compact but functional." },
+      "stability_index": { "val": 8, "note": "Predictable value." },
+      "boundary_level": { "val": 9, "note": "High autonomy." },
+      "food_adventure": { "val": 8, "note": "Williamsburg = easy wins." }
+    }
+  },
+  {
+    "id": "hotel-us-95450-timber-cove-resort",
+    "name": "Timber Cove Resort",
+    "type": "hotel",
+    "address": "21780 N Coast Hwy 1",
+    "city": "Jenner",
+    "state": "CA",
+    "zip_code": "95450",
+    "country": "US",
+    "cost": "$$$",
+    "coords": { "lat": 38.5166, "lng": -123.2469 },
+    "description": "An iconic Sonoma Coast cliffside stay built around ocean drama, redwoods, and reset energy.",
+    "fact": "The property is celebrated for its bluff-top setting and reimagined ‘classic lodge on the coast’ identity.",
+    "metrics": {
+      "comfy_score": { "val": 9, "note": "Retreat comfort." },
+      "stability_index": { "val": 9, "note": "Strong, consistent vibe." },
+      "boundary_level": { "val": 9, "note": "Space to breathe." },
+      "food_adventure": { "val": 7, "note": "More nature than culinary quest." }
+    }
+  },
+  {
+    "id": "hotel-us-78664-the-ruby-hotel",
+    "name": "The Ruby Hotel & Bar",
+    "type": "hotel",
+    "address": "400 Fannin Ave",
+    "city": "Round Rock",
+    "state": "TX",
+    "zip_code": "78664",
+    "country": "US",
+    "cost": "$$",
+    "coords": { "lat": 30.5088, "lng": -97.6798 },
+    "description": "A small, stylish stay anchored by a strong bar program and a ‘local hangout’ feel.",
+    "fact": "The concept leans into being equal parts hotel and neighborhood bar scene.",
+    "metrics": {
+      "comfy_score": { "val": 8, "note": "Boutique comfort." },
+      "stability_index": { "val": 8, "note": "Consistent and easy." },
+      "boundary_level": { "val": 8, "note": "Social if you want it." },
+      "food_adventure": { "val": 6, "note": "More drinks than dining." }
+    }
+  },
+  {
+    "id": "hotel-us-93428-cambria-beach-lodge",
+    "name": "Cambria Beach Lodge",
+    "type": "hotel",
+    "address": "6180 Moonstone Beach Dr",
+    "city": "Cambria",
+    "state": "CA",
+    "zip_code": "93428",
+    "country": "US",
+    "cost": "$$",
+    "coords": { "lat": 35.5649, "lng": -121.0968 },
+    "description": "A mellow Moonstone Beach base that’s all about ocean air, sunsets, and low-pressure comfort.",
+    "fact": "It’s positioned directly for the classic Cambria coastal routine: walk, view, reset, repeat.",
+    "metrics": {
+      "comfy_score": { "val": 9, "note": "Peak chill." },
+      "stability_index": { "val": 9, "note": "Very predictable vibe." },
+      "boundary_level": { "val": 9, "note": "Quiet autonomy." },
+      "food_adventure": { "val": 6, "note": "Coastal casual." }
+    }
+  },
+  {
+    "id": "hotel-us-93950-lighthouse-lodge-monterey",
+    "name": "Lighthouse Lodge & Cottages",
+    "type": "hotel",
+    "address": "1150 Lighthouse Ave",
+    "city": "Pacific Grove",
+    "state": "CA",
+    "zip_code": "93950",
+    "country": "US",
+    "cost": "$$",
+    "coords": { "lat": 36.61527, "lng": -121.91627 },
+    "description": "A practical Monterey-area base near the coast—easy access, straightforward stays, low friction.",
+    "fact": "A long-running coastal-lodge style option that’s more about location and ease than luxury theater.",
+    "metrics": {
+      "comfy_score": { "val": 8, "note": "Coastal lodge comfort." },
+      "stability_index": { "val": 8, "note": "Reliable and simple." },
+      "boundary_level": { "val": 8, "note": "Easy in/out." },
+      "food_adventure": { "val": 6, "note": "You’re here for the peninsula." }
+    }
+  },
+  {
+    "id": "hotel-us-94103-yotel-san-francisco",
+    "name": "YOTEL San Francisco",
+    "type": "hotel",
+    "address": "1095 Market St",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip_code": "94103",
+    "country": "US",
+    "cost": "$$",
+    "coords": { "lat": 37.77955, "lng": -122.41351 },
+    "description": "A tech-forward city stay with efficient rooms and a modern, minimal footprint.",
+    "fact": "YOTEL’s brand DNA is compact “smart design” rooms built for convenience and motion.",
+    "metrics": {
+      "comfy_score": { "val": 7, "note": "Modern but compact." },
+      "stability_index": { "val": 8, "note": "Predictable brand logic." },
+      "boundary_level": { "val": 8, "note": "Self-directed flow." },
+      "food_adventure": { "val": 7, "note": "SF access wins." }
+    }
+  },
+  {
+    "id": "hotel-us-94103-hotel-zetta",
+    "name": "Hotel Zetta San Francisco",
+    "type": "hotel",
+    "address": "55 5th St",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip_code": "94103",
+    "country": "US",
+    "cost": "$$$",
+    "coords": { "lat": 37.78376, "lng": -122.40737 },
+    "description": "A playful, design-heavy boutique stay that still keeps the logistics clean and convenient.",
+    "fact": "Known for a modern, creative interior identity that leans ‘fun’ without losing polish.",
+    "metrics": {
+      "comfy_score": { "val": 9, "note": "Boutique comfort." },
+      "stability_index": { "val": 8, "note": "Consistent delivery." },
+      "boundary_level": { "val": 8, "note": "Social options, not forced." },
+      "food_adventure": { "val": 7, "note": "Great launchpad." }
+    }
+  },
+  {
+    "id": "hotel-us-93449-la-serena-inn",
+    "name": "La Serena Inn",
+    "type": "hotel",
+    "address": "990 Morro Ave",
+    "city": "Morro Bay",
+    "state": "CA",
+    "zip_code": "93449",
+    "country": "US",
+    "cost": "$$",
+    "coords": { "lat": 35.36606, "lng": -120.84905 },
+    "description": "A calm Morro Bay stay built for easy coastal mornings and zero chaos energy.",
+    "fact": "A classic small-inn approach: simple comfort, great walkability, and coastal reset pacing.",
+    "metrics": {
+      "comfy_score": { "val": 9, "note": "Soft coastal comfort." },
+      "stability_index": { "val": 9, "note": "Very steady vibe." },
+      "boundary_level": { "val": 9, "note": "Quiet autonomy." },
+      "food_adventure": { "val": 6, "note": "Seafood + slow days." }
+    }
+  },
+  {
+    "id": "hotel-us-90254-sea-sprite-hotel",
+    "name": "Sea Sprite Hotel",
+    "type": "hotel",
+    "address": "1016 The Strand",
+    "city": "Hermosa Beach",
+    "state": "CA",
+    "zip_code": "90254",
+    "country": "US",
+    "cost": "$$",
+    "coords": { "lat": 33.8624, "lng": -118.4002 },
+    "description": "A beach-forward stay that’s basically ‘wake up and you’re already on the water.’",
+    "fact": "The entire appeal is Strand-side placement—this is the “beach first, everything else second” pick.",
+    "metrics": {
+      "comfy_score": { "val": 8, "note": "Beach comfort." },
+      "stability_index": { "val": 8, "note": "Reliable coastal routine." },
+      "boundary_level": { "val": 8, "note": "Easy, self-directed days." },
+      "food_adventure": { "val": 6, "note": "More surf than culinary mission." }
     }
   ]
 }
